@@ -32,12 +32,12 @@ const ImageGalleryItem = ({item}) => {
 
   const openModal = () => {
     if (!isModalOpen) {
-      setIsModalOpen({ isModalOpen: true });
+      setIsModalOpen(true);
     }
   };
 
   const closeModal = () => {
-    setIsModalOpen({ isModalOpen: false });
+    setIsModalOpen(false);
   };
 
   return (
