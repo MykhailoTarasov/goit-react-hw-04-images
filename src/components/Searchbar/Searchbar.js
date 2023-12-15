@@ -1,5 +1,10 @@
-
-import { Header, StyledButton, StyledForm, StyledIcon, StyledInput } from './Searchbar.Styled';
+import {
+  Header,
+  StyledButton,
+  StyledForm,
+  StyledIcon,
+  StyledInput,
+} from './Searchbar.Styled';
 
 const SearchBar = ({ onSubmit }) => {
   return (
@@ -12,11 +17,9 @@ const SearchBar = ({ onSubmit }) => {
           evt.target.reset();
         }}
       >
-      
-          <StyledButton type="submit">
-            <StyledIcon />
-          </StyledButton>
-        
+        <StyledButton type="submit">
+          <StyledIcon />
+        </StyledButton>
 
         <StyledInput
           name="searchQuery"
