@@ -9,20 +9,20 @@ export const Header = styled.header`
   background-color: #b6ddd8;
   min-height: 60px;
   margin-bottom: 10px;
+  margin-top: 10px;
   width: 1200px;
 
   border-radius: 4px;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 `;
 
 export const StyledForm = styled.form`
   display: flex;
-  
+
   width: 350px;
   background-color: ;
   border-radius: 4px;
-
 `;
 
 export const StyledInput = styled.input`
@@ -33,7 +33,7 @@ export const StyledInput = styled.input`
   border: none;
   outline: none;
   padding-left: 30px;
-  
+
   border-radius: 4px;
   color: #5b5b5b;
   background-color: #d3f0ed;
@@ -48,7 +48,6 @@ export const StyledButton = styled.button`
   margin: 0;
   padding: 0;
 
-
   cursor: pointer;
   position: absolute;
   border: none;
@@ -59,5 +58,4 @@ export const StyledButton = styled.button`
 export const StyledIcon = styled(IoSearchCircleSharp)`
   width: 20px;
   height: 20px;
-  
 `;

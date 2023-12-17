@@ -11,6 +11,8 @@ export const StyledImage = styled.img`
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
   &:hover {
     transform: scale(1.03);
     cursor: zoom-in;
