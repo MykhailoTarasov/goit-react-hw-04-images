@@ -17,6 +17,6 @@ export const Modal = ({
     style={style}
     contentLabel={contentLabel}
   >
-    <img src={largeImageURL} alt={tags} width="850" />
+    <img src={largeImageURL} alt={tags} max-width="1000" />
   </ModalComponent>
 );
